@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuchen Zhou — Data Science and Big Data Technology undergraduate at XJTLU. Projects in industrial safety monitoring, embedded systems and mathematical modeling.">
+  <meta name="theme-color" content="#132e48">
+  <title>Yuchen Zhou | Data Science &amp; Systems</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#main" aria-label="Yuchen Zhou home">YZ<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">+</span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="https://github.com/zchzbjklg" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-dot" aria-hidden="true"></span> DATA SCIENCE &amp; BIG DATA TECHNOLOGY</p>
+        <h1 id="hero-title">Yuchen Zhou</h1>
+        <p class="chinese-name" lang="zh">周雨辰</p>
+        <p class="hero-intro">An undergraduate at Xi’an Jiaotong-Liverpool University, exploring how data-driven models work in practical systems.</p>
+        <div class="hero-links">
+          <a class="button" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="https://github.com/zchzbjklg" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="profile-note" aria-label="Profile at a glance">
+        <span class="note-index">PROFILE / 01</span>
+        <div class="monogram" aria-hidden="true">yz<span>_</span></div>
+        <p class="note-description">Python-based modeling.<br>Hands-on hardware projects.</p>
+        <dl>
+          <div><dt>Education</dt><dd>XJTLU · BSc candidate</dd></div>
+          <div><dt>Study period</dt><dd>2024–2028 <small>(expected)</small></dd></div>
+          <div><dt>Interests</dt><dd>Machine learning &amp; embedded systems</dd></div>
+        </dl>
+      </aside>
+      <div class="hero-bottom"><span>MODEL · IMPLEMENT · TEST</span><a href="#about">A little more about me <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section id="about" class="section container about" aria-labelledby="about-title">
+      <div class="section-label"><span>01 / ABOUT</span><h2 id="about-title">A practical approach<br>to learning.</h2></div>
+      <div class="about-copy">
+        <p class="lead">I enjoy taking an idea beyond a notebook and understanding how it behaves in a working system.</p>
+        <p>My experience includes developing an industrial safety monitoring prototype on Raspberry Pi and using continuous-time models to investigate smartphone battery discharge. These projects have given me opportunities to work with Python, machine learning and sensor integration.</p>
+        <p>I study Data Science and Big Data Technology at XJTLU. My coursework includes programming, data structures and algorithms, databases, computer organization, operating systems and mathematics.</p>
+        <div class="education-line"><span class="education-year">2024 — 2028</span><div><strong>Xi’an Jiaotong-Liverpool University</strong><span>BSc in Data Science and Big Data Technology · Expected 2028</span></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / PROJECTS</p><h2 id="projects-title">Selected projects</h2></div><span class="section-side-note">A closer look at my work</span></div>
+        <article class="project project-featured">
+          <div class="project-copy">
+            <div class="project-meta"><span>EMBEDDED SYSTEMS / COMPUTER VISION</span><time datetime="2026-04">APR 2026</time></div>
+            <h3>Industrial safety<br>monitoring system</h3>
+            <p>A prototype for monitoring restricted industrial areas and triggering a safety response when unauthorized access is detected.</p>
+            <p>I worked on a Raspberry Pi 3B setup combining a Pi Camera, a deep learning detection model, a PIR sensor and a buzzer. The prototype used sensor checks to trigger alerts and simulate an emergency machine stop.</p>
+            <p>I also led a six-person team’s GitHub workflow, including branches and pull request reviews.</p>
+            <p class="project-tools">Raspberry Pi 3B · Python · Computer vision · PIR sensor · GitHub</p>
+          </div>
+          <div class="system-diagram" role="img" aria-label="Conceptual overview: camera input and PIR sensor feed a Raspberry Pi detection system, which triggers an alert and simulated stop.">
+            <p class="diagram-label">SYSTEM OVERVIEW</p>
+            <div class="diagram-inputs"><span>Camera<br><small>Video input</small></span><span>PIR sensor<br><small>Motion input</small></span></div>
+            <div class="diagram-path" aria-hidden="true">↓</div>
+            <div class="diagram-core"><span class="chip-mark" aria-hidden="true">▦</span><strong>Raspberry Pi 3B</strong><small>Detection + sensor checks</small></div>
+            <div class="diagram-path" aria-hidden="true">↓</div>
+            <div class="diagram-output"><span class="small-dot" aria-hidden="true"></span> Alert &amp; simulated stop</div>
+            <p class="diagram-caption">Conceptual project architecture</p>
+          </div>
+        </article>
+        <article class="project project-modeling">
+          <div class="project-number" aria-hidden="true">02</div>
+          <div class="project-copy">
+            <div class="project-meta"><span>MATHEMATICAL MODELING / MCM</span><time datetime="2026-01">JAN 2026</time></div>
+            <h3>Understanding smartphone<br>battery discharge</h3>
+            <p>As an MCM team member, I helped build continuous-time models to study lithium-ion battery discharge. I analyzed battery data to identify aging-related characteristics and wrote Python simulations to investigate battery-life trends under different loads.</p>
+            <p class="project-tools">Python · Data analysis · Continuous-time modeling · Simulation</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container skills" aria-labelledby="skills-title">
+      <div class="section-label"><span>03 / TOOLKIT</span><h2 id="skills-title">Tools I work with</h2></div>
+      <dl class="skills-list">
+        <div><dt>Programming</dt><dd>Python, C++, SQL</dd></div>
+        <div><dt>Data &amp; modeling</dt><dd>Pandas, NumPy, Matplotlib, scikit-learn, deep learning fundamentals</dd></div>
+        <div><dt>Systems &amp; workflow</dt><dd>Raspberry Pi, Linux / Ubuntu, Git, GitHub, PostgreSQL, pgAdmin</dd></div>
+        <div><dt>Languages</dt><dd>Chinese, English <span class="muted">· IELTS overall 7.0</span></dd></div>
+      </dl>
+    </section>
+
+    <section id="experience" class="section container experience" aria-labelledby="experience-title">
+      <div class="section-label"><span>04 / EXPERIENCE</span><h2 id="experience-title">Beyond the classroom</h2></div>
+      <div class="timeline">
+        <article><time datetime="2025-07">JUL — AUG 2025</time><h3>Suzhou Rural Commercial Bank</h3><p class="role">Lobby intern</p><p>Supported customer reception, basic banking enquiries and front-desk data entry. Helped guide customers during busy periods and communicate relevant risk notices.</p></article>
+        <article><time datetime="2022">2022</time><h3>World Robot Conference Challenge</h3><p class="role">Third prize</p><p>Worked with robot control logic and sensors, developing practical problem-solving and teamwork experience in a competition setting.</p></article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-main"><div><p class="eyebrow">LET’S CONNECT</p><h2>Continue the conversation.</h2><p>You can find my public profile on GitHub.</p></div><a class="footer-link" href="https://github.com/zchzbjklg" target="_blank" rel="noopener noreferrer">github.com/zchzbjklg <span aria-hidden="true">↗</span></a></div>
+      <div class="container footer-bottom"><span>Yuchen Zhou <span lang="zh">/ 周雨辰</span></span><a href="#main">Back to top ↑</a></div>
+    </footer>
+  </main>
+</body>
+</html>
